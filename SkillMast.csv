@@ -1,0 +1,309 @@
+Id	Tag	Name	NameEn	Detail	Kind	UseTiming	Side	Target	PowMin	PowMax	Cost	BaseParam	Element	BuffType	BuffPercent	BuffPower	EffectTime	Type	Effect	Info	Memo
+	基本的にここは変えない	名前		詳細	種別	使用できるシーン	敵(TARGET)・味方(FRIEND)	単体か全体か	最小効果	最大効果	消費MP	依存ステータス	属性	バフ種別	バフ確率	バフ威力	効果時間	通常・必殺	演出	フレーバーテキスト	
+1	Fire1	カグツチ	Fire α		ATTACK	BATTLE	TARGET	ONE				MAG	Fire	NON	0	0	0	0	Fire		
+2	Ice1	ミズチ	Ice α		ATTACK	BATTLE	TARGET	ONE				MAG	Ice	NON	0	0	0	0	Ice		
+3	Thunder1	ミカヅチ	Thunder α		ATTACK	BATTLE	TARGET	ONE				MAG	Thunder	NON	0	0	0	0	Thunder		
+4	Wind1	スサノオ	Wind α		ATTACK	BATTLE	TARGET	ONE				MAG	Wind	NON	0	0	0		Wind		
+5	Earth1	ダイダラ	Earth α		ATTACK	BATTLE	TARGET	ONE				MAG	Earth	NON	0	0	0	0	Earth		
+6	FireAll1	カグツチイオ	Fire All α		ATTACK	BATTLE	TARGET	ANYTHING				MAG	Fire	NON	0	0	0	0	Fire		
+7	IceAll1	ミズチイオ	Ice All α		ATTACK	BATTLE	TARGET	ANYTHING				MAG	Ice	NON	0	0	0	0	Ice		
+8	ThunderAll1	ミカヅチイオ	Thunder All α		ATTACK	BATTLE	TARGET	ANYTHING				MAG	Thunder	NON	0	0	0	0	Thunder		
+9	WindAll1	スサノオイオ	Wind All α		ATTACK	BATTLE	TARGET	ANYTHING				MAG	Wind	NON	0	0	0		Wind		
+10	EarthAll1	ダイダライオ	Earth All α		ATTACK	BATTLE	TARGET	ANYTHING				MAG	Earth	NON	0	0	0	0	Earth		
+11	Heal1	ミタマ	Heal α		HEAL	DUAL	FRIEND	ONE				MAG	Non	NON	0	0	0	0	Heal		
+12	HealAll1	クニタマ	Heal All α		HEAL	DUAL	FRIEND	ANYTHING				MAG	Non	NON	0	0	0	0	Heal		
+13	Resurrection	キサガイウムギ	Resurrection		RESURRECT	DUAL	FRIEND	ONE				MAG	Non	NON	0	0	0	0	Resurrection		
+14	ResurrectionAll	キサガイウムギイオ	Resurrection All		RESURRECT	DUAL	FRIEND	ANYTHING				MAG	Non	NON	0	0	0	0	Resurrection		
+15	Poison1	ホウソウ	Poison α		POISON	BATTLE	TARGET	ONE				MAG	Non	HP_SLIP			6	0	Poison		
+16	PoisonAll1	ホウソウイオ	Poison All α		POISON	BATTLE	TARGET	ANYTHING				MAG	Non	HP_SLIP			6	0	Poison		
+17	CurePoison1	ハラエド	Cure Poison α		CURE_POISON	DUAL	FRIEND	ONE				MAG	Non	NON	0	0	0	0	Cure		
+18	CurePoisonAll1	ハラエドイオ	Cure Poison All α		CURE_POISON	DUAL	FRIEND	ANYTHING				MAG	Non	NON	0	0	0	0	Cure		
+19	Stun1	イワトワケ	Stun α		PARALYZE	BATTLE	TARGET	ONE				MAG	Non	PARALYZE			6	0	Paralyze		
+20	StunAll1	イワトワケイオ	Stun All α		PARALYZE	BATTLE	TARGET	ANYTHING				MAG	Non	PARALYZE			6	0	Paralyze		
+21	CureParalyze1	タヂカラ	Cure Paralyze α		CURE_PARALYZE	DUAL	FRIEND	ONE				MAG	Non	NON	0	0	0	0	Cure		
+22	CureParalyzeAll1	タヂカライオ	Cure Paralyze All α		CURE_PARALYZE	DUAL	FRIEND	ANYTHING				MAG	Non	NON	0	0	0	0	Cure		
+23	Panic1	サグメ	Panic α		PANIC	BATTLE	TARGET	ONE				MAG	Non	PANIC	0	0	6		Panic		
+24	PanicAll1	サグメイオ	Panic All α		PANIC	BATTLE	TARGET	ANYTHING				MAG	Non	PANIC	0	0	6		Panic		
+25	CurePanic1	サルタ	Cure Panic α		CURE_PANIC	DUAL	FRIEND	ONE				MAG	Non	NON	0	0	0		Cure		
+26	CurePanicAll1	サルタイオ	Cure Panic All α		CURE_PANIC	DUAL	FRIEND	ANYTHING				MAG	Non	NON	0	0	0		Cure		
+27	Curs	ワカヒコ	Curs		CURSE	BATTLE	TARGET	ONE				MAG	Non	MP_SLIP			6		Curs		
+28	CursAll1	ワカヒコイオ	Curs All α		CURSE	BATTLE	TARGET	ANYTHING				MAG	Non	MP_SLIP			6		Curs		
+29	CureCurs	トシトク	Cure Curs		CURE_CURSE	DUAL	FRIEND	ONE				MAG	Non	NON	0	0	0		Cure		
+30	CureCursAll1	トシトクイオ	Cure Curs All α		CURE_CURSE	DUAL	FRIEND	ANYTHING				MAG	Non	NON	0	0	0		Cure		
+31	Bad1	マガツ	Bad α		BAD	BATTLE	TARGET	ONE				MAG	Non	NON			6		Bad		
+32	BadAll1	マガツイオ	Bad All α		BAD	BATTLE	TARGET	ANYTHING				MAG	Non	NON			6		Bad		
+33	CureBad1	セオリツ	Cure Bad α		CURE_BAD	DUAL	FRIEND	ONE				MAG	Non	NON	0	0	0	0	Cure		
+34	CureBadAll1	セオリツイオ	Cure Bad All α		CURE_BAD	DUAL	FRIEND	ANYTHING				MAG	Non	NON	0	0	0	0	Cure		
+35	HealCure１	スクナヒコナ	Heal Cure１		HEAL_CURE	DUAL	FRIEND	ONE				MAG	Non	NON	0	0	0		HealCure		
+36	HealCureAll1	スクナヒコナイオ	Heal Cure All α		HEAL_CURE	DUAL	FRIEND	ANYTHING				MAG	Non	NON	0	0	0		HealCure		
+37	BuffHit1	アツタ	Buff Hit α		BUFF	BATTLE	FRIEND	ONE				MAG	Non	HIT					BuffHit		
+38	BuffHitAll1	アツタイオ	Buff Hit All α		BUFF	BATTLE	FRIEND	ANYTHING				MAG	Non	HIT					BuffHit		
+39	DeBuffHit1	アラアツタ	De Buff Hit α		DEBUFF	BATTLE	TARGET	ONE				MAG	Non	HIT					DeBuffHit		
+40	DeBuffHitAll1	アラアツタイオ	De Buff Hit All α		DEBUFF	BATTLE	TARGET	ANYTHING				MAG	Non	HIT					DeBuffHit		
+41	BuffSway1	ハズチ	Buff Sway α		BUFF	BATTLE	FRIEND	ONE				MAG	Non	SWAY					BuffSway		ミカゲ・刀鍛冶
+42	BuffSwayAll1	ハズチイオ	Buff Sway All α		BUFF	BATTLE	FRIEND	ANYTHING				MAG	Non	SWAY					BuffSway		
+43	DeBuffSway1	アラハズチ	De Buff Sway α		DEBUFF	BATTLE	TARGET	ONE				MAG	Non	SWAY					DeBuffSway		
+44	DeBuffSwayAll1	アラハズチイオ	De Buff Sway All α		DEBUFF	BATTLE	TARGET	ANYTHING				MAG	Non	SWAY					DeBuffSway		
+45	BuffAtk1	ミカゲ	Buff Atk α		BUFF	BATTLE	FRIEND	ONE				MAG	Non	ATK					BuffAtk		
+46	BuffAtkAll1	ミカゲイオ	Buff Atk All α		BUFF	BATTLE	FRIEND	ANYTHING				MAG	Non	ATK					BuffAtk		
+47	DeBuffAtk1	アラミカゲ	De Buff Atk α		DEBUFF	BATTLE	TARGET	ONE				MAG	Non	ATK					DeBuffAtk		
+48	DeBuffAtkAll1	アラミカゲイオ	De Buff Atk All α		DEBUFF	BATTLE	TARGET	ANYTHING				MAG	Non	ATK					DeBuffAtk		
+49	BuffDef1	マヒトツ	Buff Def α		BUFF	BATTLE	FRIEND	ONE				MAG	Non	DEF					BuffDef		
+50	BuffDefAll1	マヒトツイオ	Buff Def All α		BUFF	BATTLE	FRIEND	ANYTHING				MAG	Non	DEF					BuffDef		
+51	DeBuffDef1	アラマヒトツ	De Buff Def α		DEBUFF	BATTLE	TARGET	ONE				MAG	Non	DEF					DeBuffDef		
+52	DeBuffDefAll1	アラマヒトツイオ	De Buff Def All α		DEBUFF	BATTLE	TARGET	ANYTHING				MAG	Non	DEF					DeBuffDef		
+53	BuffMag1	ニギハヤヒ	Buff Mag α		BUFF	BATTLE	FRIEND	ONE				MAG	Non	MAG					BuffMag		
+54	BuffMagAll1	ニギハヤヒイオ	Buff Mag All α		BUFF	BATTLE	FRIEND	ANYTHING				MAG	Non	MAG					BuffMag		
+55	DeBuffMag1	アラニギハヤヒ	De Buff Mag α		DEBUFF	BATTLE	TARGET	ONE				MAG	Non	MAG					DeBuffMag		
+56	DeBuffMagAll1	アラニギハヤヒイオ	De Buff Mag All α		DEBUFF	BATTLE	TARGET	ANYTHING				MAG	Non	MAG					DeBuffMag		
+57	BuffReg1	イタテ	Buff Reg α		BUFF	BATTLE	FRIEND	ONE				MAG	Non	REG					BuffReg		
+58	BuffRegAll1	イタテイオ	Buff Reg All α		BUFF	BATTLE	FRIEND	ANYTHING				MAG	Non	REG					BuffReg		
+59	DeBuffReg1	アライタテ	De Buff Reg α		DEBUFF	BATTLE	TARGET	ONE				MAG	Non	REG					DeBuffReg		
+60	DeBuffRegAll1	アライタテイオ	De Buff Reg All α		DEBUFF	BATTLE	TARGET	ANYTHING				MAG	Non	REG					DeBuffReg		
+61	BuffHitAtk1	アツタ	Buff Hit Atk α		BUFF	BATTLE	FRIEND	ONE				MAG	Non	HIT_ATK					BuffHitAtk		
+62	BuffHitAtkAll1	アツタイオ	Buff Hit Atk All α		BUFF	BATTLE	FRIEND	ANYTHING				MAG	Non	HIT_ATK					BuffHitAtk		
+63	DeBuffHitAtk1	アラアツタ	De Buff Hit Atk α		DEBUFF	BATTLE	TARGET	ONE				MAG	Non	HIT_ATK					DeBuffHitAtk		
+64	DeBuffHitAtkAll1	アラアツタイオ	De Buff Hit Atk All α		DEBUFF	BATTLE	TARGET	ANYTHING				MAG	Non	HIT_ATK					DeBuffHitAtk		
+65	BuffHitSway1	タマオヤ	Buff Hit Sway α		BUFF	BATTLE	FRIEND	ONE				MAG	Non	HIT_SWAY					BuffHitSway		
+66	BuffHitSwayAll1	タマオヤイオ	Buff Hit Sway All α		BUFF	BATTLE	FRIEND	ANYTHING				MAG	Non	HIT_SWAY					BuffHitSway		
+67	DeBuffHitSway1	アラタマオヤ	De Buff Hit Sway α		DEBUFF	BATTLE	TARGET	ONE				MAG	Non	HIT_SWAY					DeBuffHitSway		
+68	DeBuffHitSwayAll1	アラタマオヤイオ	De Buff Hit Sway All α		DEBUFF	BATTLE	TARGET	ANYTHING				MAG	Non	HIT_SWAY					DeBuffHitSway		
+69	BuffDefReg1	イシコリ	Buff Def Reg α		BUFF	BATTLE	FRIEND	ONE				MAG	Non	DEF_REG					BuffDefReg		
+70	BuffDefRegAll1	イシコリイオ	Buff Def Reg All α		BUFF	BATTLE	FRIEND	ANYTHING				MAG	Non	DEF_REG					BuffDefReg		
+71	DeBuffDefReg1	アライシコリ	De Buff Def Reg α		DEBUFF	BATTLE	TARGET	ONE				MAG	Non	DEF_REG					DeBuffDefReg		
+72	DeBuffDefRegAll1	アライシコリイオ	De Buff Def Reg All α		DEBUFF	BATTLE	TARGET	ANYTHING				MAG	Non	DEF_REG					DeBuffDefReg		
+73	Fire2	オオカグツチ	Fire β		ATTACK	BATTLE	TARGET	ONE				MAG	Fire	NON	0	0	0	0	Fire		
+74	Ice2	オオミズチ	Ice β		ATTACK	BATTLE	TARGET	ONE				MAG	Ice	NON	0	0	0	0	Ice		
+75	Thunder2	オオミカヅチ	Thunder β		ATTACK	BATTLE	TARGET	ONE				MAG	Thunder	NON	0	0	0	0	Thunder		
+76	Wind2	オオスサノオ	Wind β		ATTACK	BATTLE	TARGET	ONE				MAG	Wind	NON	0	0	0		Wind		
+77	Earth2	オオダイダラ	Earth β		ATTACK	BATTLE	TARGET	ONE				MAG	Earth	NON	0	0	0	0	Earth		
+78	FireAll2	オオカグツチイオ	Fire All β		ATTACK	BATTLE	TARGET	ANYTHING				MAG	Fire	NON	0	0	0	0	Fire		
+79	IceAll2	オオミズチイオ	Ice All β		ATTACK	BATTLE	TARGET	ANYTHING				MAG	Ice	NON	0	0	0	0	Ice		
+80	ThunderAll2	オオミカヅチイオ	Thunder All β		ATTACK	BATTLE	TARGET	ANYTHING				MAG	Thunder	NON	0	0	0	0	Thunder		
+81	WindAll2	オオスサノオイオ	Wind All β		ATTACK	BATTLE	TARGET	ANYTHING				MAG	Wind	NON	0	0	0		Wind		
+82	EarthAll2	オオダイダライオ	Earth All β		ATTACK	BATTLE	TARGET	ANYTHING				MAG	Earth	NON	0	0	0	0	Earth		
+83	Heal2	オオミタマ	Heal β		HEAL	DUAL	FRIEND	ONE				MAG	Non	NON	0	0	0	0	Heal		
+84	HealAll2	オオクニタマ	Heal All β		HEAL	DUAL	FRIEND	ANYTHING				MAG	Non	NON	0	0	0	0	Heal		
+85	Resurrection	オオキサガイウムギ	Resurrection		RESURRECT	DUAL	FRIEND	ONE				MAG	Non	NON	0	0	0	0	Resurrection		
+86	ResurrectionAll	オオキサガイウムギイオ	Resurrection All		RESURRECT	DUAL	FRIEND	ANYTHING				MAG	Non	NON	0	0	0	0	Resurrection		
+87	Poison2	オオホウソウ	Poison β		POISON	BATTLE	TARGET	ONE				MAG	Non	HP_SLIP			6	0	Poison		
+88	PoisonAll2	オオホウソウイオ	Poison All β		POISON	BATTLE	TARGET	ANYTHING				MAG	Non	HP_SLIP			6	0	Poison		
+89	CurePoison2	オオハラエド	Cure Poison β		CURE_POISON	DUAL	FRIEND	ONE				MAG	Non	NON	0	0	0	0	Cure		
+90	CurePoisonAll2	オオハラエドイオ	Cure Poison All β		CURE_POISON	DUAL	FRIEND	ANYTHING				MAG	Non	NON	0	0	0	0	Cure		
+91	Stun2	オオイワトワケ	Stun β		PARALYZE	BATTLE	TARGET	ONE				MAG	Non	PARALYZE			6	0	Paralyze		
+92	StunAll2	オオイワトワケイオ	Stun All β		PARALYZE	BATTLE	TARGET	ANYTHING				MAG	Non	PARALYZE			6	0	Paralyze		
+93	CureParalyze2	オオタヂカラ	Cure Paralyze β		CURE_PARALYZE	DUAL	FRIEND	ONE				MAG	Non	NON	0	0	0	0	Cure		
+94	CureParalyzeAll2	オオタヂカライオ	Cure Paralyze All β		CURE_PARALYZE	DUAL	FRIEND	ANYTHING				MAG	Non	NON	0	0	0	0	Cure		
+95	Panic2	オオサグメ	Panic β		PANIC	BATTLE	TARGET	ONE				MAG	Non	PANIC	0	0	6		Panic		
+96	PanicAll2	オオサグメイオ	Panic All β		PANIC	BATTLE	TARGET	ANYTHING				MAG	Non	PANIC	0	0	6		Panic		
+97	CurePanic2	オオサルタ	Cure Panic β		CURE_PANIC	DUAL	FRIEND	ONE				MAG	Non	NON	0	0	0		Cure		
+98	CurePanicAll2	オオサルタイオ	Cure Panic All β		CURE_PANIC	DUAL	FRIEND	ANYTHING				MAG	Non	NON	0	0	0		Cure		
+99	Curs	オオワカヒコ	Curs		CURSE	BATTLE	TARGET	ONE				MAG	Non	MP_SLIP			6		Curs		
+100	CursAll2	オオワカヒコイオ	Curs All β		CURSE	BATTLE	TARGET	ANYTHING				MAG	Non	MP_SLIP			6		Curs		
+101	CureCurs	オオトシトク	Cure Curs		CURE_CURSE	DUAL	FRIEND	ONE				MAG	Non	NON	0	0	0		Cure		
+102	CureCursAll2	オオトシトクイオ	Cure Curs All β		CURE_CURSE	DUAL	FRIEND	ANYTHING				MAG	Non	NON	0	0	0		Cure		
+103	Bad2	オオマガツ	Bad β		BAD	BATTLE	TARGET	ONE				MAG	Non	NON			6		Bad		
+104	BadAll2	オオマガツイオ	Bad All β		BAD	BATTLE	TARGET	ANYTHING				MAG	Non	NON			6		Bad		
+105	CureBad2	オオセオリツ	Cure Bad β		CURE_BAD	DUAL	FRIEND	ONE				MAG	Non	NON	0	0	0	0	Cure		
+106	CureBadAll2	オオセオリツイオ	Cure Bad All β		CURE_BAD	DUAL	FRIEND	ANYTHING				MAG	Non	NON	0	0	0	0	Cure		
+107	HealCure１	オオスクナヒコナ	Heal Cure１		HEAL_CURE	DUAL	FRIEND	ONE				MAG	Non	NON	0	0	0		HealCure		
+108	HealCureAll2	オオスクナヒコナイオ	Heal Cure All β		HEAL_CURE	DUAL	FRIEND	ANYTHING				MAG	Non	NON	0	0	0		HealCure		
+109	BuffHit2	オオアツタ	Buff Hit β		BUFF	BATTLE	FRIEND	ONE				MAG	Non	HIT					BuffHit		
+110	BuffHitAll2	オオアツタイオ	Buff Hit All β		BUFF	BATTLE	FRIEND	ANYTHING				MAG	Non	HIT					BuffHit		
+111	DeBuffHit2	オオアラアツタ	De Buff Hit β		DEBUFF	BATTLE	TARGET	ONE				MAG	Non	HIT					DeBuffHit		
+112	DeBuffHitAll2	オオアラアツタイオ	De Buff Hit All β		DEBUFF	BATTLE	TARGET	ANYTHING				MAG	Non	HIT					DeBuffHit		
+113	BuffSway2	オオハズチ	Buff Sway β		BUFF	BATTLE	FRIEND	ONE				MAG	Non	SWAY					BuffSway		ミカゲ・刀鍛冶
+114	BuffSwayAll2	オオハズチイオ	Buff Sway All β		BUFF	BATTLE	FRIEND	ANYTHING				MAG	Non	SWAY					BuffSway		
+115	DeBuffSway2	オオアラハズチ	De Buff Sway β		DEBUFF	BATTLE	TARGET	ONE				MAG	Non	SWAY					DeBuffSway		
+116	DeBuffSwayAll2	オオアラハズチイオ	De Buff Sway All β		DEBUFF	BATTLE	TARGET	ANYTHING				MAG	Non	SWAY					DeBuffSway		
+117	BuffAtk2	オオミカゲ	Buff Atk β		BUFF	BATTLE	FRIEND	ONE				MAG	Non	ATK					BuffAtk		
+118	BuffAtkAll2	オオミカゲイオ	Buff Atk All β		BUFF	BATTLE	FRIEND	ANYTHING				MAG	Non	ATK					BuffAtk		
+119	DeBuffAtk2	オオアラミカゲ	De Buff Atk β		DEBUFF	BATTLE	TARGET	ONE				MAG	Non	ATK					DeBuffAtk		
+120	DeBuffAtkAll2	オオアラミカゲイオ	De Buff Atk All β		DEBUFF	BATTLE	TARGET	ANYTHING				MAG	Non	ATK					DeBuffAtk		
+121	BuffDef2	オオマヒトツ	Buff Def β		BUFF	BATTLE	FRIEND	ONE				MAG	Non	DEF					BuffDef		
+122	BuffDefAll2	オオマヒトツイオ	Buff Def All β		BUFF	BATTLE	FRIEND	ANYTHING				MAG	Non	DEF					BuffDef		
+123	DeBuffDef2	オオアラマヒトツ	De Buff Def β		DEBUFF	BATTLE	TARGET	ONE				MAG	Non	DEF					DeBuffDef		
+124	DeBuffDefAll2	オオアラマヒトツイオ	De Buff Def All β		DEBUFF	BATTLE	TARGET	ANYTHING				MAG	Non	DEF					DeBuffDef		
+125	BuffMag2	オオニギハヤヒ	Buff Mag β		BUFF	BATTLE	FRIEND	ONE				MAG	Non	MAG					BuffMag		
+126	BuffMagAll2	オオニギハヤヒイオ	Buff Mag All β		BUFF	BATTLE	FRIEND	ANYTHING				MAG	Non	MAG					BuffMag		
+127	DeBuffMag2	オオアラニギハヤヒ	De Buff Mag β		DEBUFF	BATTLE	TARGET	ONE				MAG	Non	MAG					DeBuffMag		
+128	DeBuffMagAll2	オオアラニギハヤヒイオ	De Buff Mag All β		DEBUFF	BATTLE	TARGET	ANYTHING				MAG	Non	MAG					DeBuffMag		
+129	BuffReg2	オオイタテ	Buff Reg β		BUFF	BATTLE	FRIEND	ONE				MAG	Non	REG					BuffReg		
+130	BuffRegAll2	オオイタテイオ	Buff Reg All β		BUFF	BATTLE	FRIEND	ANYTHING				MAG	Non	REG					BuffReg		
+131	DeBuffReg2	オオアライタテ	De Buff Reg β		DEBUFF	BATTLE	TARGET	ONE				MAG	Non	REG					DeBuffReg		
+132	DeBuffRegAll2	オオアライタテイオ	De Buff Reg All β		DEBUFF	BATTLE	TARGET	ANYTHING				MAG	Non	REG					DeBuffReg		
+133	BuffHitAtk2	オオアツタ	Buff Hit Atk β		BUFF	BATTLE	FRIEND	ONE				MAG	Non	HIT_ATK					BuffHitAtk		
+134	BuffHitAtkAll2	オオアツタイオ	Buff Hit Atk All β		BUFF	BATTLE	FRIEND	ANYTHING				MAG	Non	HIT_ATK					BuffHitAtk		
+135	DeBuffHitAtk2	オオアラアツタ	De Buff Hit Atk β		DEBUFF	BATTLE	TARGET	ONE				MAG	Non	HIT_ATK					DeBuffHitAtk		
+136	DeBuffHitAtkAll2	オオアラアツタイオ	De Buff Hit Atk All β		DEBUFF	BATTLE	TARGET	ANYTHING				MAG	Non	HIT_ATK					DeBuffHitAtk		
+137	BuffHitSway2	オオタマオヤ	Buff Hit Sway β		BUFF	BATTLE	FRIEND	ONE				MAG	Non	HIT_SWAY					BuffHitSway		
+138	BuffHitSwayAll2	オオタマオヤイオ	Buff Hit Sway All β		BUFF	BATTLE	FRIEND	ANYTHING				MAG	Non	HIT_SWAY					BuffHitSway		
+139	DeBuffHitSway2	オオアラタマオヤ	De Buff Hit Sway β		DEBUFF	BATTLE	TARGET	ONE				MAG	Non	HIT_SWAY					DeBuffHitSway		
+140	DeBuffHitSwayAll2	オオアラタマオヤイオ	De Buff Hit Sway All β		DEBUFF	BATTLE	TARGET	ANYTHING				MAG	Non	HIT_SWAY					DeBuffHitSway		
+141	BuffDefReg2	オオイシコリ	Buff Def Reg β		BUFF	BATTLE	FRIEND	ONE				MAG	Non	DEF_REG					BuffDefReg		
+142	BuffDefRegAll2	オオイシコリイオ	Buff Def Reg All β		BUFF	BATTLE	FRIEND	ANYTHING				MAG	Non	DEF_REG					BuffDefReg		
+143	DeBuffDefReg2	オオアライシコリ	De Buff Def Reg β		DEBUFF	BATTLE	TARGET	ONE				MAG	Non	DEF_REG					DeBuffDefReg		
+144	DeBuffDefRegAll2	オオアライシコリイオ	De Buff Def Reg All β		DEBUFF	BATTLE	TARGET	ANYTHING				MAG	Non	DEF_REG					DeBuffDefReg		
+145	Fire3	アマノカグツチ	Fire γ		ATTACK	BATTLE	TARGET	ONE				MAG	Fire	NON	0	0	0	0	Fire		
+146	Ice3	アマノミズチ	Ice γ		ATTACK	BATTLE	TARGET	ONE				MAG	Ice	NON	0	0	0	0	Ice		
+147	Thunder3	アマノミカヅチ	Thunder γ		ATTACK	BATTLE	TARGET	ONE				MAG	Thunder	NON	0	0	0	0	Thunder		
+148	Wind3	アマノスサノオ	Wind γ		ATTACK	BATTLE	TARGET	ONE				MAG	Wind	NON	0	0	0		Wind		
+149	Earth3	アマノダイダラ	Earth γ		ATTACK	BATTLE	TARGET	ONE				MAG	Earth	NON	0	0	0	0	Earth		
+150	FireAll3	アマノカグツチイオ	Fire All γ		ATTACK	BATTLE	TARGET	ANYTHING				MAG	Fire	NON	0	0	0	0	Fire		
+151	IceAll3	アマノミズチイオ	Ice All γ		ATTACK	BATTLE	TARGET	ANYTHING				MAG	Ice	NON	0	0	0	0	Ice		
+152	ThunderAll3	アマノミカヅチイオ	Thunder All γ		ATTACK	BATTLE	TARGET	ANYTHING				MAG	Thunder	NON	0	0	0	0	Thunder		
+153	WindAll3	アマノスサノオイオ	Wind All γ		ATTACK	BATTLE	TARGET	ANYTHING				MAG	Wind	NON	0	0	0		Wind		
+154	EarthAll3	アマノダイダライオ	Earth All γ		ATTACK	BATTLE	TARGET	ANYTHING				MAG	Earth	NON	0	0	0	0	Earth		
+155	Heal3	アマノミタマ	Heal γ		HEAL	DUAL	FRIEND	ONE				MAG	Non	NON	0	0	0	0	Heal		
+156	HealAll3	アマノクニタマ	Heal All γ		HEAL	DUAL	FRIEND	ANYTHING				MAG	Non	NON	0	0	0	0	Heal		
+157	Resurrection	アマノキサガイウムギ	Resurrection		RESURRECT	DUAL	FRIEND	ONE				MAG	Non	NON	0	0	0	0	Resurrection		
+158	ResurrectionAll	アマノキサガイウムギイオ	Resurrection All		RESURRECT	DUAL	FRIEND	ANYTHING				MAG	Non	NON	0	0	0	0	Resurrection		
+159	Poison3	アマノホウソウ	Poison γ		POISON	BATTLE	TARGET	ONE				MAG	Non	HP_SLIP			6	0	Poison		
+160	PoisonAll3	アマノホウソウイオ	Poison All γ		POISON	BATTLE	TARGET	ANYTHING				MAG	Non	HP_SLIP			6	0	Poison		
+161	CurePoison3	アマノハラエド	Cure Poison γ		CURE_POISON	DUAL	FRIEND	ONE				MAG	Non	NON	0	0	0	0	Cure		
+162	CurePoisonAll3	アマノハラエドイオ	Cure Poison All γ		CURE_POISON	DUAL	FRIEND	ANYTHING				MAG	Non	NON	0	0	0	0	Cure		
+163	Stun3	アマノイワトワケ	Stun γ		PARALYZE	BATTLE	TARGET	ONE				MAG	Non	PARALYZE			6	0	Paralyze		
+164	StunAll3	アマノイワトワケイオ	Stun All γ		PARALYZE	BATTLE	TARGET	ANYTHING				MAG	Non	PARALYZE			6	0	Paralyze		
+165	CureParalyze3	アマノタヂカラ	Cure Paralyze γ		CURE_PARALYZE	DUAL	FRIEND	ONE				MAG	Non	NON	0	0	0	0	Cure		
+166	CureParalyzeAll3	アマノタヂカライオ	Cure Paralyze All γ		CURE_PARALYZE	DUAL	FRIEND	ANYTHING				MAG	Non	NON	0	0	0	0	Cure		
+167	Panic3	アマノサグメ	Panic γ		PANIC	BATTLE	TARGET	ONE				MAG	Non	PANIC	0	0	6		Panic		
+168	PanicAll3	アマノサグメイオ	Panic All γ		PANIC	BATTLE	TARGET	ANYTHING				MAG	Non	PANIC	0	0	6		Panic		
+169	CurePanic3	アマノサルタ	Cure Panic γ		CURE_PANIC	DUAL	FRIEND	ONE				MAG	Non	NON	0	0	0		Cure		
+170	CurePanicAll3	アマノサルタイオ	Cure Panic All γ		CURE_PANIC	DUAL	FRIEND	ANYTHING				MAG	Non	NON	0	0	0		Cure		
+171	Curs	アマノワカヒコ	Curs		CURSE	BATTLE	TARGET	ONE				MAG	Non	MP_SLIP			6		Curs		
+172	CursAll3	アマノワカヒコイオ	Curs All γ		CURSE	BATTLE	TARGET	ANYTHING				MAG	Non	MP_SLIP			6		Curs		
+173	CureCurs	アマノトシトク	Cure Curs		CURE_CURSE	DUAL	FRIEND	ONE				MAG	Non	NON	0	0	0		Cure		
+174	CureCursAll3	アマノトシトクイオ	Cure Curs All γ		CURE_CURSE	DUAL	FRIEND	ANYTHING				MAG	Non	NON	0	0	0		Cure		
+175	Bad3	アマノマガツ	Bad γ		BAD	BATTLE	TARGET	ONE				MAG	Non	NON			6		Bad		
+176	BadAll3	アマノマガツイオ	Bad All γ		BAD	BATTLE	TARGET	ANYTHING				MAG	Non	NON			6		Bad		
+177	CureBad3	アマノセオリツ	Cure Bad γ		CURE_BAD	DUAL	FRIEND	ONE				MAG	Non	NON	0	0	0	0	Cure		
+178	CureBadAll3	アマノセオリツイオ	Cure Bad All γ		CURE_BAD	DUAL	FRIEND	ANYTHING				MAG	Non	NON	0	0	0	0	Cure		
+179	HealCure１	アマノスクナヒコナ	Heal Cure１		HEAL_CURE	DUAL	FRIEND	ONE				MAG	Non	NON	0	0	0		HealCure		
+180	HealCureAll3	アマノスクナヒコナイオ	Heal Cure All γ		HEAL_CURE	DUAL	FRIEND	ANYTHING				MAG	Non	NON	0	0	0		HealCure		
+181	BuffHit3	アマノアツタ	Buff Hit γ		BUFF	BATTLE	FRIEND	ONE				MAG	Non	HIT					BuffHit		
+182	BuffHitAll3	アマノアツタイオ	Buff Hit All γ		BUFF	BATTLE	FRIEND	ANYTHING				MAG	Non	HIT					BuffHit		
+183	DeBuffHit3	アマノアラアツタ	De Buff Hit γ		DEBUFF	BATTLE	TARGET	ONE				MAG	Non	HIT					DeBuffHit		
+184	DeBuffHitAll3	アマノアラアツタイオ	De Buff Hit All γ		DEBUFF	BATTLE	TARGET	ANYTHING				MAG	Non	HIT					DeBuffHit		
+185	BuffSway3	アマノハズチ	Buff Sway γ		BUFF	BATTLE	FRIEND	ONE				MAG	Non	SWAY					BuffSway		ミカゲ・刀鍛冶
+186	BuffSwayAll3	アマノハズチイオ	Buff Sway All γ		BUFF	BATTLE	FRIEND	ANYTHING				MAG	Non	SWAY					BuffSway		
+187	DeBuffSway3	アマノアラハズチ	De Buff Sway γ		DEBUFF	BATTLE	TARGET	ONE				MAG	Non	SWAY					DeBuffSway		
+188	DeBuffSwayAll3	アマノアラハズチイオ	De Buff Sway All γ		DEBUFF	BATTLE	TARGET	ANYTHING				MAG	Non	SWAY					DeBuffSway		
+189	BuffAtk3	アマノミカゲ	Buff Atk γ		BUFF	BATTLE	FRIEND	ONE				MAG	Non	ATK					BuffAtk		
+190	BuffAtkAll3	アマノミカゲイオ	Buff Atk All γ		BUFF	BATTLE	FRIEND	ANYTHING				MAG	Non	ATK					BuffAtk		
+191	DeBuffAtk3	アマノアラミカゲ	De Buff Atk γ		DEBUFF	BATTLE	TARGET	ONE				MAG	Non	ATK					DeBuffAtk		
+192	DeBuffAtkAll3	アマノアラミカゲイオ	De Buff Atk All γ		DEBUFF	BATTLE	TARGET	ANYTHING				MAG	Non	ATK					DeBuffAtk		
+193	BuffDef3	アマノマヒトツ	Buff Def γ		BUFF	BATTLE	FRIEND	ONE				MAG	Non	DEF					BuffDef		
+194	BuffDefAll3	アマノマヒトツイオ	Buff Def All γ		BUFF	BATTLE	FRIEND	ANYTHING				MAG	Non	DEF					BuffDef		
+195	DeBuffDef3	アマノアラマヒトツ	De Buff Def γ		DEBUFF	BATTLE	TARGET	ONE				MAG	Non	DEF					DeBuffDef		
+196	DeBuffDefAll3	アマノアラマヒトツイオ	De Buff Def All γ		DEBUFF	BATTLE	TARGET	ANYTHING				MAG	Non	DEF					DeBuffDef		
+197	BuffMag3	アマノニギハヤヒ	Buff Mag γ		BUFF	BATTLE	FRIEND	ONE				MAG	Non	MAG					BuffMag		
+198	BuffMagAll3	アマノニギハヤヒイオ	Buff Mag All γ		BUFF	BATTLE	FRIEND	ANYTHING				MAG	Non	MAG					BuffMag		
+199	DeBuffMag3	アマノアラニギハヤヒ	De Buff Mag γ		DEBUFF	BATTLE	TARGET	ONE				MAG	Non	MAG					DeBuffMag		
+200	DeBuffMagAll3	アマノアラニギハヤヒイオ	De Buff Mag All γ		DEBUFF	BATTLE	TARGET	ANYTHING				MAG	Non	MAG					DeBuffMag		
+201	BuffReg3	アマノイタテ	Buff Reg γ		BUFF	BATTLE	FRIEND	ONE				MAG	Non	REG					BuffReg		
+202	BuffRegAll3	アマノイタテイオ	Buff Reg All γ		BUFF	BATTLE	FRIEND	ANYTHING				MAG	Non	REG					BuffReg		
+203	DeBuffReg3	アマノアライタテ	De Buff Reg γ		DEBUFF	BATTLE	TARGET	ONE				MAG	Non	REG					DeBuffReg		
+204	DeBuffRegAll3	アマノアライタテイオ	De Buff Reg All γ		DEBUFF	BATTLE	TARGET	ANYTHING				MAG	Non	REG					DeBuffReg		
+205	BuffHitAtk3	アマノアツタ	Buff Hit Atk γ		BUFF	BATTLE	FRIEND	ONE				MAG	Non	HIT_ATK					BuffHitAtk		
+206	BuffHitAtkAll3	アマノアツタイオ	Buff Hit Atk All γ		BUFF	BATTLE	FRIEND	ANYTHING				MAG	Non	HIT_ATK					BuffHitAtk		
+207	DeBuffHitAtk3	アマノアラアツタ	De Buff Hit Atk γ		DEBUFF	BATTLE	TARGET	ONE				MAG	Non	HIT_ATK					DeBuffHitAtk		
+208	DeBuffHitAtkAll3	アマノアラアツタイオ	De Buff Hit Atk All γ		DEBUFF	BATTLE	TARGET	ANYTHING				MAG	Non	HIT_ATK					DeBuffHitAtk		
+209	BuffHitSway3	アマノタマオヤ	Buff Hit Sway γ		BUFF	BATTLE	FRIEND	ONE				MAG	Non	HIT_SWAY					BuffHitSway		
+210	BuffHitSwayAll3	アマノタマオヤイオ	Buff Hit Sway All γ		BUFF	BATTLE	FRIEND	ANYTHING				MAG	Non	HIT_SWAY					BuffHitSway		
+211	DeBuffHitSway3	アマノアラタマオヤ	De Buff Hit Sway γ		DEBUFF	BATTLE	TARGET	ONE				MAG	Non	HIT_SWAY					DeBuffHitSway		
+212	DeBuffHitSwayAll3	アマノアラタマオヤイオ	De Buff Hit Sway All γ		DEBUFF	BATTLE	TARGET	ANYTHING				MAG	Non	HIT_SWAY					DeBuffHitSway		
+213	BuffDefReg3	アマノイシコリ	Buff Def Reg γ		BUFF	BATTLE	FRIEND	ONE				MAG	Non	DEF_REG					BuffDefReg		
+214	BuffDefRegAll3	アマノイシコリイオ	Buff Def Reg All γ		BUFF	BATTLE	FRIEND	ANYTHING				MAG	Non	DEF_REG					BuffDefReg		
+215	DeBuffDefReg3	アマノアライシコリ	De Buff Def Reg γ		DEBUFF	BATTLE	TARGET	ONE				MAG	Non	DEF_REG					DeBuffDefReg		
+216	DeBuffDefRegAll3	アマノアライシコリイオ	De Buff Def Reg All γ		DEBUFF	BATTLE	TARGET	ANYTHING				MAG	Non	DEF_REG					DeBuffDefReg		
+1001	BodyAssault	体当たり	Body assault		ATTACK	BATTLE	TARGET	ONE				STR	Material	NON	0	0	0	0	Blow		
+1002	Biting	噛みつき	Biting		ATTACK	BATTLE	TARGET	ONE				STR	Material	NON	0	0	0	0	Blow		
+1003	FireBreath	炎のブレス	Fire breath		ATTACK	BATTLE	TARGET	ONE				MAG	Fire	NON	0	0	0	0	Fire		
+1004	FireBreathAll	爆炎ブレス	Flame breath		ATTACK	BATTLE	TARGET	ANYTHING				MAG	Fire	NON	0	0	0	0	Fire		
+1005	IceBreath	氷のブレス	Ice breath		ATTACK	BATTLE	TARGET	ONE				MAG	Ice	NON	0	0	0	0	Ice		
+1006	BlizzardBreath	吹雪のブレス	Blizzard breath		ATTACK	BATTLE	TARGET	ANYTHING				MAG	Ice	NON	0	0	0	0	Ice		
+1007	RampantStrike	乱打	RampantStrike		ATTACK	BATTLE	TARGET	ONE				STR	Material	NON	0	0	0	0	Blow		
+1008	SeikenDuki	正拳突き	Seiken duki		ATTACK	BATTLE	TARGET	ONE				STR	Material	NON	0	0	0	0	Blow		
+1009	SantenDuki	三点突き	Santen duki		ATTACK	BATTLE	TARGET	ONE				STR	Material	NON	0	0	0	0	Blow		
+1010	Bumping	ぶん回し	Bumping		ATTACK	BATTLE	TARGET	ANYTHING				STR	Material	NON	0	0	0	0	Blow		
+1011	PoisonNeedle	毒針	Poison needle		ATTACK	BATTLE	TARGET	ONE				STR	Material	NON	0	0	0	0	Blow		
+1012	PoisonFang	毒牙	Poison fang		ATTACK	BATTLE	TARGET	ONE				STR	Material	NON	0	0	0	0	Blow		
+1013	PoisonClaw	毒爪	Poison claw		ATTACK	BATTLE	TARGET	ONE				STR	Material	NON	0	0	0	0	Blow		
+1014	ParalyzeNeedle	麻痺針	Paralyze needle		ATTACK	BATTLE	TARGET	ONE				STR	Material	NON	0	0	0	0	Blow		
+1015	ParalyzeFang	麻痺牙	Paralyze fang		ATTACK	BATTLE	TARGET	ONE				STR	Material	NON	0	0	0	0	Blow		
+1016	ParalyzeClaw	麻痺爪	Paralyze claw		ATTACK	BATTLE	TARGET	ONE				STR	Material	NON	0	0	0	0	Blow		
+1017	Crushing	圧し潰し	Crushing		ATTACK	BATTLE	TARGET	ONE				STR	Material	NON	0	0	0	0	Blow		
+1018	Scream	雄叫び	Scream		ATTACK	BATTLE	TARGET	ONE				STR	Material	NON	0	0	0	0	Blow		
+1019	QuickSlash	一閃	Quick slash		ATTACK	BATTLE	TARGET	ONE				STR	Material	NON	0	0	0	0	Blow		
+1020	Cleave	薙ぎ払い	Cleave		ATTACK	BATTLE	TARGET	ANYTHING				STR	Material	NON	0	0	0	0	Blow		
+2001	Freeze	凍	Freeze		ATTACK	BATTLE	TARGET	ONE			1	MAG	Ice				0	0	Ice		
+2002	Stone_rubble	石礫	Stone_rubble		ATTACK	BATTLE	TARGET	ONE			4	MAG	Ice				0	0	Ice		
+2003	Regeneration	再生	Regeneration		ATTACK	BATTLE	TARGET	ONE			3	MAG	Ice				0	0	Ice		
+2004	Blizzard	吹雪	Blizzard		ATTACK	BATTLE	TARGET	ANYTHING			10	MAG	Ice				0	0	Ice		
+2005	Mudslide	土石流	Mudslide		ATTACK	BATTLE	TARGET	ANYTHING			15	MAG	Ice				0	0	Ice		
+2006	Heavenly_blades	天刃	Heavenly_blades		ATTACK	BATTLE	TARGET	ANYTHING			1	MAG	Ice				0	0	Ice		
+2007	Barrier	障壁	Barrier		STATUS_BUFF	BATTLE	FRIEND	ANYTHING			4	MAG	Ice				3	0	Ice		
+2008	Weakness	脱力	Weakness		STATUS_DEBUFF	BATTLE	TARGET	ANYTHING			10	MAG	Ice				3	0	Ice		
+2009	Rigidity	剛力	Rigidity		STATUS_BUFF	BATTLE	FRIEND	ANYTHING			15	MAG	Ice				3	0	Ice		
+2010	Firecrackers	爆竹	Firecrackers		Paralyze	BATTLE	TARGET	ONE			1	MAG	Ice				3	0	Ice		
+2011	Molotov_cocktails	火炎瓶	Molotov_cocktails		ATTACK	BATTLE	TARGET	ONE			4	MAG	Ice				0	0	Ice		
+2012	Molotov_bat	火炎バット	Molotov_bat		ATTACK	BATTLE	TARGET	ONE			3	MAG	Ice				0	0	Ice		
+2013	Slingshot_balls	パチンコ玉	Slingshot_balls		ATTACK	BATTLE	TARGET	ONE			10	MAG	Ice				0	0	Ice		
+2014	Stun_guns	スタンガン	Stun_guns		ATTACK	BATTLE	TARGET	ONE			15	MAG	Ice				0	0	Ice		
+2015	Molotov_cocktails	爆炎瓶	Molotov_cocktails		ATTACK	BATTLE	TARGET	ANYTHING			1	MAG	Ice				0	0	Ice		
+2016	First_aid	応急手当	First_aid		HEAL	DUAL	FRIEND	ONE			4	MAG	Ice				0	0	Ice		
+2017	Terrain_analysis	地形分析	Terrain_analysis		STATUS_BUFF	BATTLE	FRIEND	ONE			3	MAG	Ice				3	0	Ice		
+2018	Carabiner_knife	カラビナナイフ	Carabiner_knife		ATTACK	BATTLE	TARGET	ONE			10	MAG	Ice				0	0	Ice		
+2019	Poison_treatment	毒治療	Poison_treatment		CURE_POISON	BATTLE	FRIEND	ONE			15	MAG	Ice				0	0	Ice		
+2020	Smoke_bomb	発煙筒	Smoke_bomb		STATUS_DEBUFF	BATTLE	TARGET	ANYTHING			4	MAG	Ice				3	0	Ice		
+2021	Bear_repellent_spray	熊除けスプレー	Bear_repellent_spray		PARALYZE	BATTLE	TARGET	ONE			8	MAG	Ice				3	0	Ice		
+2022	Simple_zelt	簡易ツェルト	Simple_zelt		HEAL	FIELD	FRIEND	ANYTHING			18	MAG	Ice				0	0	Ice		
+2023	Zile_bind	ザイルバインド	Zile_bind		STATUS_DEBUFF	BATTLE	TARGET	ONE			25	MAG	Ice				3	0	Ice		
+2024	Poison_mud_flying_debris	毒泥飛礫	Poison_mud_flying_debris		POISON	BATTLE	TARGET	ONE			5	MAG	Ice				3	0	Ice		
+2025	Sling	スリング	Sling		ATTACK	BATTLE	TARGET	ONE			5	MAG	Ice				0	0	Ice		
+2026	Recovery_chocolate	回復チョコレート	Recovery_chocolate		HEAL	DUAL	FRIEND	ONE			10	MAG	Ice				3	0	Ice		
+2027	Healthy_sandwich	ヘルシーサンドイッチ	Healthy_sandwich		HEAL	DUAL	FRIEND	ONE			10	MAG	Ice				3	0	Ice		
+2028	Complete_cure_cookies	完治クッキー	Complete_cure_cookies		HEAL	DUAL	FRIEND	ONE			10	MAG	Ice				3	0	Ice		
+2029	Relaxing_candles	やすらぎキャンドル	Relaxing_candles		CURE_PARALYZE	BATTLE	FRIEND	ANYTHING			10	MAG	Ice				3	0	Ice		
+2030	Detox_aroma	デトックスアロマ	Detox_aroma		CURE_POISON	BATTLE	FRIEND	ANYTHING			10	MAG	Ice				3	0	Ice		
+2031	Toxic_herbal_tea	毒消しハーブティー	Toxic_herbal_tea		CURE_POISON	BATTLE	FRIEND	ONE			10	MAG	Ice				3	0	Ice		
+2032	Refreshing_mint	しゃっきりミント	Refreshing_mint		CURE_PARALYZE	BATTLE	FRIEND	ONE			10	MAG	Ice				3	0	Ice		
+2033	Shower_of_energy	元気のシャワー	Shower_of_energy		HEAL	DUAL	FRIEND	ANYTHING			10	MAG	Ice				3	0	Ice		
+2034	Reviving_hot_candy	復活の激辛キャンディー	Reviving_hot_candy		RESURRECT	BATTLE	FRIEND	ONE			10	MAG	Ice				3	0	Ice		
+2035	Healing_incense	癒しの線香	Healing_incense		HEAL	DUAL	FRIEND	ANYTHING			10	MAG	Ice				3	0	Ice		
+2036	Electric_light_Shoken-tsuki	電光正拳突き	Electric_light_Shoken-tsuki		ATTACK	BATTLE	TARGET	ONE			8	MAG	Ice				0	0	Ice		
+2037	Electric_blade_shower_kick	電刃浴びせ蹴り	Electric_blade_shower_kick		ATTACK	BATTLE	TARGET	ONE			25	MAG	Ice				0	0	Ice		
+2038	Raishin_Foot_Payment	雷神足払い	Raishin_Foot_Payment		PARALYZE	BATTLE	TARGET	ONE			1	MAG	Ice				3	0	Ice		
+2039	Lightning_bolt_three-stage_thrust	稲妻三段突き	Lightning_bolt_three-stage_thrust		ATTACK	BATTLE	TARGET	ONE			1	MAG	Ice				3	0	Ice		
+2040	Dengeki_Ranburi_Demonstration	電撃乱れ演武	Dengeki_Ranburi_Demonstration		ATTACK	BATTLE	TARGET	ANYTHING			1	MAG	Ice				3	0	Ice		
+2041	Ura-hit	裏当て	Ura-hit		ATTACK	BATTLE	TARGET	ONE				MAG	Ice				0	0	Ice		
+2042	Ichi_no_Ken	一の拳	Ichi_no_Ken		ATTACK	BATTLE	TARGET	ONE				MAG	Ice				0	0	Ice		
+2043	Shukuji	縮地	Shukuji		STATUS_BUFF	BATTLE	FRIEND	ONE				MAG	Ice				3	0	Ice		
+2044	Liquid_nitrogen	液体窒素	Liquid_nitrogen		ATTACK	BATTLE	TARGET	ANYTHING				MAG	Ice				0	0	Ice		
+2045	Hydrogen_storage_alloy	水素吸蔵合金	Hydrogen_storage_alloy		ATTACK	BATTLE	TARGET	ANYTHING				MAG	Ice				0	0	Ice		
+2046	Attack_drones	攻撃ドローン	Attack_drones		ATTACK	BATTLE	TARGET	ONE				MAG	Ice				0	0	Ice		
+2047	Dry_ice	ドライアイス	Dry_ice		ATTACK	BATTLE	TARGET	ONE				MAG	Ice				0	0	Ice		
+2048	Digital_camouflage	デジタル迷彩	Digital_camouflage		STATUS_BUFF	BATTLE	FRIEND	ONE				MAG	Ice				3	0	Ice		
+2049	AED	AED	AED		RESURRECT	BATTLE	FRIEND	ONE				MAG	Ice				0	0	Ice		
+2050	Distraction_drones	攪乱ドローン	Distraction_drones		STATUS_DEBUFF	BATTLE	TARGET	ONE				MAG	Ice				3	0	Ice		
+2051	Support_drone	支援ドローン	Support_drone		STATUS_BUFF	BATTLE	FRIEND	ONE				MAG	Ice				3	0	Ice		
+2052	Directors_orders	部長号令	Directors_orders		STATUS_BUFF	BATTLE	FRIEND	ANYTHING				MAG	Ice				3	0	Ice		
+2053	First_aid	応急手当	First_aid		HEAL	DUAL	FRIEND	ONE				MAG	Ice				0	0	Ice		
+2054	Mind_and_body	心頭滅却	Mind_and_body		STATUS_BUFF	BATTLE	FRIEND	ONE				MAG	Ice				3	0	Ice		
+2055	Firecrackers	爆竹	Firecrackers		PARALYZE	BATTLE	TARGET	ONE				MAG	Ice				3	0	Ice		
+2056	Heavenly_blade	天刃	Heavenly_blade		ATTACK	BATTLE	TARGET	ANYTHING				MAG	Ice				0	0	Ice		
+2057	Lucky_cookie	ラッキークッキー	Lucky_cookie		STATUS_BUFF	BATTLE	FRIEND	ONE				MAG	Ice				3	0	Ice		
+2058	Back_hit	裏当て	Back_hit		ATTACK	BATTLE	TARGET	ONE				MAG	Ice				0	0	Ice		
+2059	AED	AED	AED		RESURRECT	BATTLE	FRIEND	ONE				MAG	Ice				0	0	Ice		
+2060	Everybody_be_in_good_health!	みんなげんきになぁーれっ	Everybody_be_in_good_health!		HEAL	DUAL	FRIEND	ANYTHING				MAG	Ice				0	0	Ice		
+2061	I_want_you_to_get_out_of_here!	いたいのとんでけ	I_want_you_to_get_out_of_here!		HEAL	DUAL	FRIEND	ONE				MAG	Ice				0	0	Ice		
+2062	Boom!	どかーん	Boom!		ATTACK	BATTLE	TARGET	ONE				MAG	Ice				0	0	Ice		
+2063	Lets_go!	いっくぞー	Lets_go!		STATUS_BUFF	BATTLE	FRIEND	ONE				MAG	Ice				3	0	Ice		
+2064	"Go	_go	_go!"	ゴーゴー！	"Go	_go	_go!"		STATUS_BUFF	BATTLE	FRIEND	ONE				MAG	Ice				3	0	Ice		
+2065	"Everybody	_steady!"	みんなしっかり！	"Everybody	_steady!"		STATUS_BUFF	BATTLE	FRIEND	ANYTHING				MAG	Ice				3	0	Ice		
+2066	Lets_take_a_break	一休みしよっか	Lets_take_a_break		HEAL	FIELD	FRIEND	ANYTHING				MAG	Ice				0	0	Ice		
+2067	Lets_get_well_soon	げんきになぁーれっ	Lets_get_well_soon		CURE_BAD	BATTLE	FRIEND	ONE				MAG	Ice				0	0	Ice		
+2068	Everybody_be_well!	みんなげんきになぁーれっ	Everybody_be_well!		CURE_BAD	BATTLE	FRIEND	ANYTHING				MAG	Ice				0	0	Ice		
+2069	Hang_on!	しっかり！	Hang_on!		STATUS_BUFF	BATTLE	FRIEND	ONE				MAG	Ice				3	0	Ice		
+2070	Everybody_go_go!	みんなゴーゴー！	Everybody_go_go!		STATUS_BUFF	BATTLE	FRIEND	ANYTHING				MAG	Ice				3	0	Ice		
+2071	Float_away!	ふっとべー！	Float_away!		ATTACK	BATTLE	TARGET	ANYTHING				MAG	Ice				0	0	Ice		

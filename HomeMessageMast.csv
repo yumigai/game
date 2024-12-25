@@ -1,0 +1,86 @@
+Id	Tag	Names	Names	Texts	Texts	Characters	Characters	Back	Faces	Faces	Icons	Icons	Situation	Terms	ChapterIds
+									Normal Smile Sad Angry				"0：NORMAL 1：QUEST_WIN 2：QUEST_LOSE 3：HEAL_EVENT 4：FIRST_MESSAGE 5：HP_LOW	"	0:ANY 1:HIGH_LIKE 2:MAX_LIKE	
+1		一波 		貴女は何故屋上を目指すの？　それは無垢な憧れ？　……それとも真実に気づきつつあるの？		Kazuha		Home	Normal		Kazuha/smile		0	0	
+2		一波 		……私はどちらでも構わない。卒業でも退学でも。		Kazuha		Home	Normal		Kazuha/smile		0	0	
+3		一波 		犯した罪を理解できないほど幼い時、その咎はどこにいくのかしらね？　		Kazuha		Home	Normal		Kazuha/smile		0	0	
+4		一波 		普通の学校なら卒業を目指すべき。でも、この学校ではそうとは言い切れない。この学校で大人になるって言う事は、つまり…		Kazuha		Home	Sad		Kazuha/smile		0	0	
+5		一波 		貴方たちにとって、退学が福音となるかどうかは分からない。……ただ、待っていても卒業は迫ってくるの		Kazuha		Home	Sad		Kazuha/smile		0	0	
+6		一波 		パパもママも、新しいパパも要らない。私が欲しいのは、一つだけ。		Kazuha		Home	Normal		Kazuha/smile		0	1	
+7		一波 		貴女がいない世界。それが私にとっての地獄。七流……貴女が進む世界に、私はいる。		Kazuha		Home	Normal		Kazuha/smile		0	2	
+8		一波 		子供の頃の記憶はもう曖昧なの。長い間、ずっとこの学校で過ごしてきたから。		Kazuha		Home	Normal		Kazuha/smile		0	0	
+9		一波 		家族に大事なものって何？　血？　それとも絆？　		Kazuha		Home	Smile		Kazuha/smile		0	0	
+10		一波 		何が好きなのか、何が得意なのか。それを知るには、ここに来るのが早すぎたの……。		Kazuha		Home	Normal		Kazuha/smile		0	0	
+11		一波 		私がこの学校に編入した頃、部員は零海と私の二人だけだったの。あれから比べると部員も随分増えたものね。		Kazuha		Home	Normal		Kazuha/smile		0	0	
+12		一波 		五澄みたいに純粋でいられたら、この学校を好きになれたかもしれない。……でも、その先に待つのは絶望だから。		Kazuha		Home	Sad		Kazuha/smile		0	0	
+13		二湖 		本来ならアタシら３年が仕切らなきゃいけないんだろうけどね。お前には感謝してるよ、七流。		Niko		Home	Sad		Niko/smile		0	0	
+14		二湖 		よう七流。さっき部員でカードゲームしようって話になったんだよ。もちろんお前も来るだろ？		Niko		Home	Sad		Niko/smile		0	0	
+15		二湖 		集団になるとさ、罪の感覚が薄れちまうんだよな。その重さは何も変わらないのにな。		Niko		Home	Sad		Niko/smile		0	0	
+16		二湖 		探索の時にはアタシが先頭に出るからな。お前らはアタシが絶対に守るから安心しろ。		Niko		Town	Normal		Niko/smile		0	0	
+17		二湖 		卒業にしろ退学にしろ、この学校を離れるのは少し寂しい気もするな。ずいぶん長くここで過ごしたから。		Niko		Home	Smile		Niko/smile		0	0	
+18		二湖 		家族ってのは、面倒くさくて、重たくて。でも、安心できる温かいものだったんだな。		Niko		Home	Sad		Niko/smile		0	1	
+19		二湖 		お前が皆を守るなら、お前を助けるのがアタシの役目だ。アタシがお前を支える。この先も、ずっと……		Niko		Home	Smile		Niko/smile		0	2	
+20		二湖 		アタシはもうこの学校に編入されてから８年も経つんだよ。青春の全てをこの退屈な学校で過ごしたってのはちょっと寂しいね		Niko		Home	Smile		Niko/smile		0	0	
+21		二湖 		うちは大家族でさー。６人兄弟でアタシは長女だったから、むかしから兄弟の面倒見てたんだよね		Niko		Home	Smile		Niko/smile		0	0	
+22		二湖 		この学校、娯楽が限られてるからね。アタシの趣味って言ったらカードゲームと占いくらいのものさ。		Niko		Home	Smile		Niko/smile		0	0	
+23		二湖 		四帆はいつもアタシかアンタの後ろを付いてくるよね。でもアタシを「お兄ちゃんみたい」って言うんだ。複雑な気分だよ。		Niko		Home	Normal		Niko/smile		0	0	
+24		二湖 		五澄って、どこか悪ぶってるけど普通に良い子だよな。		Niko		Home	Smile		Niko/smile		0	0	
+25		三沙 		どっちかと言うと一人の方が好きなんだよね。…でも、アンタ達といるのも悪くはない。		Misa		Home	Normal		Misa/smile		0	0	
+26		三沙 		……花壇の水仙が咲いたんだよ。興味あるなら見に行く？　……いや、誰が育てたとかは別にどうでもいいってば。		Misa		Home	Smile		Misa/smile		0	0	
+27		三沙 		人の感情にはエネルギーがある。それが温かいものであっても、時には重く感じることもあるんだよね。		Misa		Home	Angry		Misa/smile		0	0	
+28		三沙 		時々一人で学校探索に行ってたからかな？　敵から逃げたり罠を見つけるのが妙に上手くなった気がするんだ。		Misa		Home	Normal		Misa/smile		0	0	
+29		三沙 		ここを出たら、旅をしてみたいね。そうして自分に合う静かな場所を見つけて、そこに居を構えるんだよね。		Misa		Home	Normal		Misa/smile		0	0	
+30		三沙 		私は一人の方が気楽。……だけど、大切なものまで見失ったりしないよ。二度とね。		Misa		Town	Smile		Misa/smile		0	1	
+31		三沙 		気楽じゃない幸せ。アンタはそれを教えてくれたね、七流。もっと教えて……この感情を……		Misa		Town	Smile		Misa/smile		0	2	
+32		三沙 		昔は家も学校も、ちょっと居心地悪い場所だったんだよね。自由な分、今の方が私には向いてるかな。		Misa		Town	Smile		Misa/smile		0	0	
+33		三沙 		弟が一人いてさ。いつも私の後ろをくっついて来てたっけ……		Misa		Town	Smile		Misa/smile		0	0	
+34		三沙 		古いレコードとか好きなんだよね。ジャズが好きっぽいって言われるけど、好きなジャンルはレトロポップなんだ。		Misa		Town	Normal		Misa/smile		0	0	
+35		三沙 		この前、夜に校庭で散歩していたら、星空を見上げている一波とばったり会ったよ。お互い何も話さなかったけど。		Misa		Town	Normal		Misa/smile		0	0	
+36		三沙 		八江は苦手。悪い人ではないのは分かるけれど。遠慮が無くて物怖じもしなくて。……嫌いでは無いけど。		Misa		Town	Normal		Misa/smile		0	0	
+37		四帆 		七流ちゃん、今日の夕飯はどうする？　何か食べたいものあるかな？　それとも学食に行く？		Shiho		Gate	Normal		Shiho/smile		0	0	
+38		四帆 		学食にも調理師さんいないし、気づいたら冷蔵庫には食材が入ってるし、この学校って不思議だね。		Shiho		Gate	Normal		Shiho/smile		0	0	
+39		四帆 		雛鳥には、その場所が巣なのか檻なのか分からないの。何も知らないまま飛び出せば、自分か、他の誰かが傷つくの。		Shiho		Gate	Normal		Shiho/smile		0	0	
+40		四帆 		部活にお弁当とか持って行った方がいいかなぁ？		Shiho		Town	Normal		Shiho/smile		0	0	
+41		四帆 		退学したらどうなるのかな？　卒業したらどうなるのかな？　……でもなんとなく、卒業は嫌な気がする。		Shiho		Town	Normal		Shiho/smile		0	0	
+42		四帆 		四帆は臆病で卑怯だったの……。そんな自分にお別れしたい。強い人になりたい。嫌われたくないから。		Shiho		Home	Normal		Shiho/smile		0	1	
+43		四帆 		七流ちゃん、お願い。四帆とずっと一緒にいて。ワガママはこれで最後にするから		Shiho		Home	Normal		Shiho/smile		0	2	
+44		四帆 		今も楽しいけど、お兄ちゃんとお姉ちゃんが家にいた頃も楽しかったなぁ。また会いたいなぁ。		Shiho		Town	Normal		Shiho/smile		0	0	
+45		四帆 		お姉ちゃん、どうしてるかなぁ？　お姉ちゃんね、七流ちゃんや二湖ちゃんみたいに優しかったんだよ		Shiho		Home	Normal		Shiho/smile		0	0	
+46		四帆 		料理はお姉ちゃんが教えてくれたから得意なんだ。お姉ちゃんにはまだまだ及ばないけどね。		Shiho		Home	Sad		Shiho/smile		0	0	
+47		四帆 		二湖ちゃんと八江ちゃん、四帆と２歳しか違わないのに、とっても大人っぽいよね。四帆もあんな風になれるかな？		Shiho		Town	Normal		Shiho/smile		0	0	
+48		四帆 		えへへ。四帆知ってるよ。実は三沙ちゃんはとってもお世話好きなの。裏の花壇のお世話してるの、三沙ちゃんなんだよ。		Shiho		Town	Normal		Shiho/smile		0	0	
+49		五澄 		どうっすかパイセン！　学校探索に向けてトレーニングでもしないっすか？　		Izumi		Gate	Normal		Izumi/smile		0	0	
+50		五澄 		え？　この前クラスの奴とケンカした件すか？　……退学部の事を悪く言ってたんで……つい。		Izumi		Gate	Normal		Izumi/smile		0	0	
+51		五澄 		ルールを破るから罪になるんすよね？　それなら、ルールを悪用することは罪にならないんすかね？		Izumi		Gate	Normal		Izumi/smile		0	0	
+52		五澄 		部活の時にはガンガン攻めていくんで、前衛に配置してくれていいっすよ。期待しててください。		Izumi		Gate	Normal		Izumi/smile		0	0	
+53		五澄 		パイセン！　退学って言葉、何か響きがワルっぽくてカッコイイすよね！		Izumi		Gate	Normal		Izumi/smile		0	0	
+54		五澄 		昔の自分を殴りたいっす。憧れる相手を間違って、進む道を間違えた……。でも、今の憧れは間違いじゃない。		Izumi		Gate	Normal		Izumi/smile		0	1	
+55		五澄 		ゼータクは言わないっす。……パイセン、アンタの背中を守らせてください。同じ道を行くことを許してください。		Izumi		Gate	Normal		Izumi/smile		0	2	
+56		五澄 		ガキの頃は野郎どもとつるんでた事が多かったんで、女子の友達との接し方がいまいち分からなかったんすよね		Izumi		Town	Normal		Izumi/smile		0	0	
+57		五澄 		うちの家ね。男ばっかりだったんすよ。親父に三人の兄貴たち。おかげでこんなんなっちまいまして		Izumi		Town	Normal		Izumi/smile		0	0	
+58		五澄 		ガキの頃、よく兄貴たちに混じってサッカーやってたんすよ。中学上がってからはなかなかできなかったんすけどね		Izumi		Home	Normal		Izumi/smile		0	0	
+59		五澄 		八江サンも男友達の方が多かったっつーんすけど、俺とあの人だと友達のベクトルが違うっつーか……		Izumi		Home	Smile		Izumi/smile		0	0	
+		五澄 		俺は……四帆みたいな可愛げは無いんで。いや、別に甘えたいとかそういうんじゃないっすからね！		Izumi					Izumi/smile		0	0	
+		六海 		あーあ。学校にネット回線があれば無限に引きこもってられるんだがね……		Mutsumi					Mutsumi/smile		0	0	
+		六海 		ワタシも昔は変わり者扱いされたものだが、変わり者揃いの退学部の中だと安心できるね。		Mutsumi					Mutsumi/smile		0	0	
+		六海 		ときに七流くん。キミは炎上事件で悪いのは発した者と広めた者、どちらがより悪だと思うかね？		Mutsumi					Mutsumi/smile		0	0	
+		六海 		自分で言うのもなんだが、ワタシは虚弱なので前衛は向かないよ。その代わり、後衛からのサポートは任せてくれたまえ。		Mutsumi					Mutsumi/smile		0	0	
+		六海 		一般的には退学よりも卒業を目指すべきなのだろうがね。どうもこの学校に関しては、それが正しいのか疑問だね		Mutsumi					Mutsumi/smile		0	0	
+		六海 		言葉は武器。発した言葉の責任は取るさ。でないと大切な言葉を伝えるときに軽くなってしまうからね……		Mutsumi					Mutsumi/smile		0	1	
+		六海 		七流くん、今のワタシにとって、キミの言葉は世界の全ての言葉より重い。それはワタシを天国にも地獄にも導くものだ。		Mutsumi					Mutsumi/smile		0	2	
+		六海 		ワタシは昔からインドア派だったんだが、だからと言って引き籠りというわけではない。……多分。		Mutsumi					Mutsumi/smile		0	0	
+		六海 		ワタシの実家は雑貨屋でね。父と母が忙しく切り盛りしていたものさ。一人っ子のワタシは寂しかったというのが本音だね。		Mutsumi					Mutsumi/smile		0	0	
+		六海 		好きなものはゲームだ。特にパズルゲームが好きで、オンラインの世界大会でベスト８になったこともあるのだよ。		Mutsumi					Mutsumi/smile		0	0	
+		六海 		そういえば七流くんと五澄くんとはこの学校への編入時期がほとんど一緒だったね。あれから３年か……		Mutsumi					Mutsumi/smile		0	0	
+		六海 		一波くんや三沙くんとはなかなか気が合うのだよ。お互いに自分の距離感を守っているからかもしれないね。		Mutsumi					Mutsumi/smile		0	0	
+		八江 		わたし、みんなが笑っている時が一番好き。誰も傷つかない世界があればいいのにねぇ。		Yae					Yae/smile		0	0	
+		八江 		学校にね。カラオケルームとスパとマッサージ室とプールとカフェとブティックがあったらいいのにね～？		Yae					Yae/smile		0	0	
+		八江 		ナナちゃん、幸せの量って決まってるのかな？　誰かと誰かが幸せになったら、他の誰かが不幸になるのかな？		Yae					Yae/smile		0	0	
+		八江 		部活は疲れるねぇ。汗かくし、血まみれになるし。ナーナちゃん、一緒にお風呂に入ろ～？		Yae					Yae/smile		0	0	
+		八江 		この学校を出ても一緒に遊ぼうね、ナナちゃん。だから退学できるようにわたしも頑張るからねー。		Yae					Yae/smile		0	0	
+		八江 		わたしの罪はね。誰かの笑顔の陰で、涙を流す人がいるのを知らなかったこと。この胸の痛みが、それを教えてくれたの。		Yae					Yae/smile		0	1	
+		八江 		ナナちゃん、今のわたしはあなただけに幸せをあげたい。あなたが笑顔でいるなら、他の全てを……		Yae					Yae/smile		0	2	
+		八江 		この学校に来る前も友達はいっぱいいたよ～。でも今みたいに女の子の友達は少なかったかな？　なんでだろうね～？		Yae					Yae/smile		0	0	
+		八江 		うちね、ママがなかなか帰ってこなかったけど、パパはいつも家にいたんだよ～。いつも１～２年でパパが変わってたけど。		Yae					Yae/smile		0	0	
+		八江 		カラオケが好きで～。この学校に来る前はよく行ってたんだよ。音楽室じゃ歌っても盛り上がんないんだよ～。		Yae					Yae/smile		0	0	
+		八江 		私、３年生なのにこの中じゃ一番編入が遅かったんだよねぇ。でも皆がすぐ仲良くしてくれたから嬉しかったなぁ。		Yae					Yae/smile		0	0	
+		八江 		四帆ちゃんがどうしたら大人の女になれるかって聞かれたから、教えようとしたら二湖ちゃんに怒られたよ～		Yae					Yae/smile		0	0	
